@@ -17,11 +17,24 @@
       height: 100px;
     }
 
+    .white::before {
+  content: "♔";
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
     .black {
-      background-color: #b58863;
+      background-color: #967356;
       width: 100px;
       height: 100px;
     }
+
+    .white:hover, .black:hover {
+  outline: 3px solid #000000;
+  cursor: pointer;
+}
 
   </style>
 </head>
